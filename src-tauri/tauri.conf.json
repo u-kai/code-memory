@@ -1,0 +1,15 @@
+{
+  "build": {
+    "distDir": "../dist",
+    "devPath": "http://localhost:3000"
+  },
+  "tauri": {
+    "bundle": {
+      "active": true,
+      "targets": ["all"]
+    },
+    "security": {
+      "csp": null
+    }
+  }
+}
